@@ -1,0 +1,23 @@
+{
+  "name": "@james-bennett-295/date",
+  "version": "1.0.0",
+  "description": "Date utilities",
+  "main": "./build/index.js",
+  "types": "./build/index.d.ts",
+  "scripts": {
+    "build": "rm -rf ./build/ && npx tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/james-bennett-295/npm-date.git"
+  },
+  "author": "James Bennett",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/james-bennett-295/npm-date/issues"
+  },
+  "homepage": "https://github.com/james-bennett-295/npm-date#readme",
+  "devDependencies": {
+    "@types/node": "^18.11.10"
+  }
+}
